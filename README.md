@@ -6,10 +6,10 @@ This project demonstrates a monitoring infrastructure built using **Zabbix** and
 
 The system is designed to:
 
-- Collect infrastructure metrics
-- Generate trigger-based alerts
-- Store monitoring data in PostgreSQL
-- Visualize real-time metrics through Grafana dashboards
+- Collect infrastructure metrics.
+- Generate trigger-based alerts.
+- Store monitoring data in PostgreSQL.
+- Visualize real-time metrics through Grafana dashboards.
 
 ---
 
@@ -42,27 +42,27 @@ The monitoring system is deployed across two Ubuntu virtual machines hosted on W
 
 ## 🔄 Monitoring Workflow
 
-Zabbix Agent collects metrics from monitored hosts -> Zabbix Server processes data -> PostgreSQL stores monitoring metrics -> Triggers generate events when thresholds are exceeded -> Zabbix API exposes monitoring data -> Grafana queries PostgreSQL -> Admin monitors system through dashboards
+Zabbix Agent collects metrics from monitored hosts -> Zabbix Server processes data -> PostgreSQL stores monitoring metrics -> Triggers generate events when thresholds are exceeded -> Zabbix API exposes monitoring data -> Grafana queries PostgreSQL -> Admin monitors system through dashboards.
 
 ---
 
 ## 🔔 Alert Flow
 
-Host → Zabbix Agent → Zabbix Server → Trigger → Event → Zabbix API → Grafana Dashboard → Admin
+Host → Zabbix Agent → Zabbix Server → Trigger → Event → Zabbix API → Grafana Dashboard → Admin.
 
 ---
 
 ## 🔐 Key Features
 
-- Centralized monitoring system
-- Trigger-based alerting
-- API integration
-- Dashboard visualization
-- Multi-VM architecture
-- Containerized Grafana deployment
+- Centralized monitoring system.
+- Trigger-based alerting.
+- API integration.
+- Dashboard visualization.
+- Multi-VM architecture.
+- Containerized Grafana deployment.
 
 ---
 
-## 👤 Author
+## 🤵🏿 Author
 
 Truong Quang Phuc
