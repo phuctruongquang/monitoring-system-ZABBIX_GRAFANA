@@ -16,6 +16,7 @@ The system is designed to:
 ## 🏗 System Architecture
 
 The monitoring system is deployed across two Ubuntu virtual machines hosted on Windows Server (Hyper-V).
+
 <img src="docs/images/Diagram_Zabbix-Grafana.png" width="900">
 
 ---
@@ -26,14 +27,14 @@ The monitoring system is deployed across two Ubuntu virtual machines hosted on W
 - Windows Server 2025
 - Hyper-V Virtualization
 
-### 🔹 VM 1 – Ubuntu_VM_01
+### 🔹 Ubuntu VM_01
 - Zabbix Server
-- PostgreSQL (Zabbix Database)
+- PostgreSQL
 
-### 🔹 VM 2 – Ubuntu_VM_02
-- Docker Engine
-- Grafana (Containerized)
-- PostgreSQL (Active Database)
+### 🔹 Ubuntu VM_02
+- Docker
+- Grafana
+- PostgreSQL
 
 ---
 
@@ -55,19 +56,6 @@ Host → Zabbix Agent → Zabbix Server → Trigger → Event → Zabbix API →
 
 ---
 
-## 🛠 Technology Stack
-
-| Layer | Technology |
-|--------|------------|
-| Monitoring | Zabbix |
-| Visualization | Grafana |
-| Database | PostgreSQL |
-| Virtualization | Hyper-V |
-| Containerization | Docker |
-| OS | Ubuntu Server |
-
----
-
 ## 📂 Project Structure
 
 monitoring-system-ZABBIX_GRAFANA/  
@@ -75,7 +63,7 @@ monitoring-system-ZABBIX_GRAFANA/
 ├── README.md  
 ├── docs/  
 │   └── images/  
-│       └── architecture.png  
+│       └── Diagram_Zabbix-Grafana.png.png  
 ├── zabbix/  
 ├── grafana/  
 └── docker/  
@@ -90,17 +78,6 @@ monitoring-system-ZABBIX_GRAFANA/
 - Dashboard visualization
 - Multi-VM architecture
 - Containerized Grafana deployment
-
----
-
-## 🚀 Future Improvements
-
-- High Availability (Zabbix HA)
-- Load Balancing
-- Database Replication
-- Backup & Restore Strategy
-- CI/CD Integration
-- Infrastructure as Code (Terraform / Ansible)
 
 ---
 
