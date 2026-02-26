@@ -1,4 +1,4 @@
-# 🚀 Monitoring System – Zabbix & Grafana
+# 🚀 Monitoring System Zabbix & Grafana
 
 ## 📌 Project Overview
 
@@ -40,33 +40,13 @@ The monitoring system is deployed across two Ubuntu virtual machines hosted on W
 
 ## 🔄 Monitoring Workflow
 
-1. Zabbix Agent collects metrics from monitored hosts
-2. Zabbix Server processes data
-3. PostgreSQL stores monitoring metrics
-4. Triggers generate events when thresholds are exceeded
-5. Zabbix API exposes monitoring data
-6. Grafana queries PostgreSQL
-7. Admin monitors system through dashboards
+Zabbix Agent collects metrics from monitored hosts -> Zabbix Server processes data -> PostgreSQL stores monitoring metrics -> Triggers generate events when thresholds are exceeded -> Zabbix API exposes monitoring data -> Grafana queries PostgreSQL -> Admin monitors system through dashboards
 
 ---
 
 ## 🔔 Alert Flow
 
 Host → Zabbix Agent → Zabbix Server → Trigger → Event → Zabbix API → Grafana Dashboard → Admin  
-
----
-
-## 📂 Project Structure
-
-monitoring-system-ZABBIX_GRAFANA/  
-│  
-├── README.md  
-├── docs/  
-│   └── images/  
-│       └── Diagram_Zabbix-Grafana.png.png  
-├── zabbix/  
-├── grafana/  
-└── docker/  
 
 ---
 
