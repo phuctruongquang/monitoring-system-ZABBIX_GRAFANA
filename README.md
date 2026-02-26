@@ -17,6 +17,8 @@ The system is designed to:
 
 The monitoring system is deployed across two Ubuntu virtual machines hosted on Windows Server (Hyper-V).
 
+<img src="docs/images/flow.png" width="900">
+
 <img src="docs/images/Diagram_Zabbix-Grafana.png" width="900">
 
 ---
@@ -46,7 +48,7 @@ Zabbix Agent collects metrics from monitored hosts -> Zabbix Server processes da
 
 ## 🔔 Alert Flow
 
-Host → Zabbix Agent → Zabbix Server → Trigger → Event → Zabbix API → Grafana Dashboard → Admin  
+Host → Zabbix Agent → Zabbix Server → Trigger → Event → Zabbix API → Grafana Dashboard → Admin
 
 ---
 
