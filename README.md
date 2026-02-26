@@ -15,7 +15,7 @@ The system is designed to:
 
 ## 🏗 System Architecture
 
-<img src="docs/images/architecture.png" width="900">
+<img src="docs/images/Diagram_Zabbix-Grafana.png" width="900">
 
 The monitoring system is deployed across two Ubuntu virtual machines hosted on Windows Server (Hyper-V).
 
