@@ -1,4 +1,4 @@
-# 🚀 Monitoring System Zabbix & Grafana
+# Monitoring System Zabbix & Grafana
 
 ## 📌 Project Overview
 
