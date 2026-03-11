@@ -1,6 +1,6 @@
 # Monitoring System Zabbix & Grafana
 
-## 📌 Project Overview
+## 1. Project Overview
 
 This project demonstrates a monitoring infrastructure built using **Zabbix** and **Grafana**, deployed in a virtualized environment with **Hyper-V**.
 
@@ -13,7 +13,7 @@ The system is designed to:
 
 ---
 
-## 🏗 System Architecture
+## 2. System Architecture
 
 The monitoring system is deployed across two Ubuntu virtual machines hosted on Windows Server (Hyper-V).
 
@@ -23,7 +23,7 @@ The monitoring system is deployed across two Ubuntu virtual machines hosted on W
 
 ---
 
-## 🖥 Infrastructure Design
+## 3. Infrastructure Design
 
 ### 🔹 Host Machine
 - Windows Server 2025
@@ -40,19 +40,19 @@ The monitoring system is deployed across two Ubuntu virtual machines hosted on W
 
 ---
 
-## 🔄 Monitoring Workflow
+## 4. Monitoring Workflow
 
 Zabbix Agent collects metrics from monitored hosts -> Zabbix Server processes data -> PostgreSQL stores monitoring metrics -> Triggers generate events when thresholds are exceeded -> Zabbix API exposes monitoring data -> Grafana queries PostgreSQL -> Admin monitors system through dashboards.
 
 ---
 
-## 🔔 Alert Flow
+## 5. Alert Flow
 
 Host → Zabbix Agent → Zabbix Server → Trigger → Event → Zabbix API → Grafana Dashboard → Admin.
 
 ---
 
-## 🔐 Key Features
+## 6. Key Features
 
 - Centralized monitoring system.
 - Trigger-based alerting.
@@ -63,6 +63,6 @@ Host → Zabbix Agent → Zabbix Server → Trigger → Event → Zabbix API →
 
 ---
 
-## 🤵🏿 Author
+## Author
 
 Truong Quang Phuc
